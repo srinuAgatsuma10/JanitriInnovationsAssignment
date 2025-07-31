@@ -24,6 +24,8 @@ public class LoginPage_POM extends BasePOM {
 	@FindBy(xpath = "//img[@alt='Password Not Visible']")
 	WebElement eyeToggle;
 	
+	@FindBy(xpath = "//p[@class='normal-text']")
+	WebElement errorMessage;
 	
 	// Action Methods
 	
@@ -41,5 +43,9 @@ public class LoginPage_POM extends BasePOM {
 	
 	public void checkEyeToggle() {
 		eyeToggle.click();
+	}
+	
+	public String getErrorMessage() {
+		return errorMessage.getText();
 	}
 }

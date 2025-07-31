@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
-	WebDriver driver;
+	public static WebDriver driver;
 
 	@BeforeClass
 	public void setUp() {
