@@ -6,8 +6,8 @@
       <class name="testCases.LoginFunctionality">
         <methods>
           <include name="tearDown"/>
+          <include name="testPasswordMaskedbutton"/>
           <include name="setUp"/>
-          <include name="testLoginButtonDisabledWhenFieldAreEmpty"/>
         </methods>
       </class> <!-- testCases.LoginFunctionality -->
     </classes>

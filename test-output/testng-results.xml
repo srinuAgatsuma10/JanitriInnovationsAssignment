@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T19:51:16 IST" name="Default suite" finished-at="2025-07-31T19:51:24 IST" duration-ms="7350">
+  <suite started-at="2025-07-31T21:09:11 IST" name="Default suite" finished-at="2025-07-31T21:09:17 IST" duration-ms="5958">
     <groups>
     </groups>
-    <test started-at="2025-07-31T19:51:16 IST" name="Default test" finished-at="2025-07-31T19:51:24 IST" duration-ms="7350">
+    <test started-at="2025-07-31T21:09:11 IST" name="Default test" finished-at="2025-07-31T21:09:17 IST" duration-ms="5958">
       <class name="testCases.LoginFunctionality">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@6771beb3]" started-at="2025-07-31T19:51:16 IST" name="setUp" finished-at="2025-07-31T19:51:22 IST" duration-ms="5454" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:11 IST" name="setUp" finished-at="2025-07-31T21:09:17 IST" duration-ms="5513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginButtonDisabledWhenFieldAreEmpty()[pri:1, instance:testCases.LoginFunctionality@6771beb3]" started-at="2025-07-31T19:51:22 IST" name="testLoginButtonDisabledWhenFieldAreEmpty" finished-at="2025-07-31T19:51:24 IST" duration-ms="1677" status="PASS">
+        <test-method signature="testPasswordMaskedbutton()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:17 IST" name="testPasswordMaskedbutton" finished-at="2025-07-31T21:09:17 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginButtonDisabledWhenFieldAreEmpty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@6771beb3]" started-at="2025-07-31T19:51:24 IST" name="tearDown" finished-at="2025-07-31T19:51:24 IST" duration-ms="190" status="PASS">
+        </test-method> <!-- testPasswordMaskedbutton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:17 IST" name="tearDown" finished-at="2025-07-31T21:09:17 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

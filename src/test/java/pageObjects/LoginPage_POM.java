@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -61,6 +60,10 @@ public class LoginPage_POM extends BasePOM {
 	
 	public boolean isLoginBtnDisabled() {
 		return loginBtn.isEnabled();
+	}
+	
+	public String getPasswordFieldType() {
+		return passwordBox.getAttribute("value");
 	}
 	
 }

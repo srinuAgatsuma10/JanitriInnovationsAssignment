@@ -23,10 +23,18 @@ public class LoginFunctionality extends BaseClass {
 
 	}
 	
-	@Test
-	public void testPasswordMaskedbutton() {
+	@Test(priority = 2)
+	public void testPasswordMaskedbutton() throws InterruptedException {
+		
 		faker = new Faker();
-		String email = faker.internet().safeEmailAddress();
 		String password = faker.internet().password();
+		LoginPage_POM lp = new LoginPage_POM(driver);
+		lp.enterPassword(password);
+		String typeBefore = lp.getPasswordFieldType();
+		lp.checkEyeToggle();
+		String typeAfter = lp.getPasswordFieldType();
+		
+		Assert.assertEquals(typeBefore, typeAfter, "Password visibility toggeled is workings");
+		
 	}
 }
