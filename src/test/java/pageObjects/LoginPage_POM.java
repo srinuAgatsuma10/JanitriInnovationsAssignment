@@ -24,7 +24,7 @@ public class LoginPage_POM extends BasePOM {
 	@FindBy(xpath = "//img[@alt='Password Not Visible']")
 	WebElement eyeToggle;
 	
-	@FindBy(xpath = "//p[@class='normal-text']")
+	@FindBy(xpath = "//div[@class='invalid-credential-div']//p")
 	WebElement errorMessage;
 	
 	// Action Methods
