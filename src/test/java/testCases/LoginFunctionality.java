@@ -13,7 +13,7 @@ public class LoginFunctionality extends BaseClass {
 
 	@Test(priority = 1)
 	public void testLoginButtonDisabledWhenFieldAreEmpty() throws InterruptedException {
-		
+
 		LoginPage_POM lp = new LoginPage_POM(driver);
 		lp.enterEmail("");
 		lp.enterPassword("");
@@ -22,10 +22,10 @@ public class LoginFunctionality extends BaseClass {
 		Assert.assertTrue(lp.isLoginBtnDisabled(), "Login Button should not enable.");
 
 	}
-	
+
 	@Test(priority = 2)
 	public void testPasswordMaskedbutton() throws InterruptedException {
-		
+
 		faker = new Faker();
 		String password = faker.internet().password();
 		LoginPage_POM lp = new LoginPage_POM(driver);
@@ -33,11 +33,11 @@ public class LoginFunctionality extends BaseClass {
 		String typeBefore = lp.getPasswordFieldType();
 		lp.checkEyeToggle();
 		String typeAfter = lp.getPasswordFieldType();
-		
+
 		Assert.assertEquals(typeBefore, typeAfter, "Password visibility toggeled is workings");
-		
+
 	}
-	
+
 	@Test(priority = 3)
 	public void testInvalidLoginShowErrorMsg() {
 		faker = new Faker();
@@ -49,10 +49,14 @@ public class LoginFunctionality extends BaseClass {
 		lp.clickLoginBtn();
 		System.out.println(lp.getErrorMessage());
 	}
-	
+
 	@Test(priority = 4)
 	public void testPresenceOfUIElements() {
-		LoginPage_POM lp = new LoginPage_POM(driver);
-		Assert.assertTrue(lp.isUIElementsPresent(), "All UI elements should be present");
+	    LoginPage_POM lp = new LoginPage_POM(driver);
+	    String actualTitle = driver.getTitle();
+	    String expectedTitle = "Janitri"; 
+
+	    Assert.assertEquals(actualTitle, expectedTitle, "Page title is incorrect");
+	    Assert.assertTrue(lp.isUIElementsPresent(), "All UI elements should be present");
 	}
 }
