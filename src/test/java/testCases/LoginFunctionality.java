@@ -37,4 +37,16 @@ public class LoginFunctionality extends BaseClass {
 		Assert.assertEquals(typeBefore, typeAfter, "Password visibility toggeled is workings");
 		
 	}
+	
+	@Test(priority = 3)
+	public void testInvalidLoginShowErrorMsg() {
+		faker = new Faker();
+		String email = faker.internet().safeEmailAddress();
+		String password = faker.internet().password();
+		LoginPage_POM lp = new LoginPage_POM(driver);
+		lp.enterEmail(email);
+		lp.enterPassword(password);
+		lp.clickLoginBtn();
+		System.out.println(lp.getErrorMessage());
+	}
 }

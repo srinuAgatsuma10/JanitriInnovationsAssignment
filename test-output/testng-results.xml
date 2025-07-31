@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T21:09:11 IST" name="Default suite" finished-at="2025-07-31T21:09:17 IST" duration-ms="5958">
+  <suite started-at="2025-07-31T21:13:46 IST" name="Default suite" finished-at="2025-07-31T21:13:59 IST" duration-ms="12868">
     <groups>
     </groups>
-    <test started-at="2025-07-31T21:09:11 IST" name="Default test" finished-at="2025-07-31T21:09:17 IST" duration-ms="5958">
+    <test started-at="2025-07-31T21:13:46 IST" name="Default test" finished-at="2025-07-31T21:13:59 IST" duration-ms="12868">
       <class name="testCases.LoginFunctionality">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:11 IST" name="setUp" finished-at="2025-07-31T21:09:17 IST" duration-ms="5513" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:46 IST" name="setUp" finished-at="2025-07-31T21:13:57 IST" duration-ms="11261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPasswordMaskedbutton()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:17 IST" name="testPasswordMaskedbutton" finished-at="2025-07-31T21:09:17 IST" duration-ms="198" status="PASS">
+        <test-method signature="testInvalidLoginShowErrorMsg()[pri:3, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:57 IST" name="testInvalidLoginShowErrorMsg" finished-at="2025-07-31T21:13:58 IST" duration-ms="1127" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPasswordMaskedbutton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@51399530]" started-at="2025-07-31T21:09:17 IST" name="tearDown" finished-at="2025-07-31T21:09:17 IST" duration-ms="217" status="PASS">
+        </test-method> <!-- testInvalidLoginShowErrorMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:58 IST" name="tearDown" finished-at="2025-07-31T21:13:59 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
