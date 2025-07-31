@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T21:13:46 IST" name="Default suite" finished-at="2025-07-31T21:13:59 IST" duration-ms="12868">
+  <suite started-at="2025-07-31T22:09:53 IST" name="Default suite" finished-at="2025-07-31T22:12:00 IST" duration-ms="127381">
     <groups>
     </groups>
-    <test started-at="2025-07-31T21:13:46 IST" name="Default test" finished-at="2025-07-31T21:13:59 IST" duration-ms="12868">
+    <test started-at="2025-07-31T22:09:53 IST" name="Default test" finished-at="2025-07-31T22:12:00 IST" duration-ms="127381">
       <class name="testCases.LoginFunctionality">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:46 IST" name="setUp" finished-at="2025-07-31T21:13:57 IST" duration-ms="11261" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:09:53 IST" name="setUp" finished-at="2025-07-31T22:10:29 IST" duration-ms="35598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLoginShowErrorMsg()[pri:3, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:57 IST" name="testInvalidLoginShowErrorMsg" finished-at="2025-07-31T21:13:58 IST" duration-ms="1127" status="PASS">
+        <test-method signature="testLoginButtonDisabledWhenFieldAreEmpty()[pri:1, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:10:29 IST" name="testLoginButtonDisabledWhenFieldAreEmpty" finished-at="2025-07-31T22:11:25 IST" duration-ms="55776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonDisabledWhenFieldAreEmpty -->
+        <test-method signature="testPasswordMaskedbutton()[pri:2, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:11:25 IST" name="testPasswordMaskedbutton" finished-at="2025-07-31T22:11:25 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMaskedbutton -->
+        <test-method signature="testInvalidLoginShowErrorMsg()[pri:3, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:11:25 IST" name="testInvalidLoginShowErrorMsg" finished-at="2025-07-31T22:11:26 IST" duration-ms="811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidLoginShowErrorMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@6b2ea799]" started-at="2025-07-31T21:13:58 IST" name="tearDown" finished-at="2025-07-31T21:13:59 IST" duration-ms="407" status="PASS">
+        <test-method signature="testPresenceOfUIElements()[pri:4, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:11:26 IST" name="testPresenceOfUIElements" finished-at="2025-07-31T22:12:00 IST" duration-ms="34069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPresenceOfUIElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginFunctionality@5e0e82ae]" started-at="2025-07-31T22:12:00 IST" name="tearDown" finished-at="2025-07-31T22:12:00 IST" duration-ms="595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

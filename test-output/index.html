@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1354126948\testng-customsuite.xml</span>
+                    <span>C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-607705859\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testCases.LoginFunctionality" class="method navigator-link" hash-for-method="testInvalidLoginShowErrorMsg">testInvalidLoginShowErrorMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.LoginFunctionality" class="method navigator-link" hash-for-method="testLoginButtonDisabledWhenFieldAreEmpty">testLoginButtonDisabledWhenFieldAreEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.LoginFunctionality" class="method navigator-link" hash-for-method="testPasswordMaskedbutton">testPasswordMaskedbutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.LoginFunctionality" class="method navigator-link" hash-for-method="testPresenceOfUIElements">testPresenceOfUIElements</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,12 +146,33 @@
                   <span class="method-name">testInvalidLoginShowErrorMsg</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonDisabledWhenFieldAreEmpty">
+                  </a> <!-- testLoginButtonDisabledWhenFieldAreEmpty -->
+                  <span class="method-name">testLoginButtonDisabledWhenFieldAreEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordMaskedbutton">
+                  </a> <!-- testPasswordMaskedbutton -->
+                  <span class="method-name">testPasswordMaskedbutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPresenceOfUIElements">
+                  </a> <!-- testPresenceOfUIElements -->
+                  <span class="method-name">testPresenceOfUIElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1354126948\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-607705859\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.LoginFunctionality&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;testInvalidLoginShowErrorMsg&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.LoginFunctionality --&gt;
+      &lt;class name=&quot;testCases.LoginFunctionality&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testInvalidLoginShowErrorMsg')
+data.setCell(0, 1, 'testLoginButtonDisabledWhenFieldAreEmpty')
 data.setCell(0, 2, 'testCases.LoginFunctionality')
-data.setCell(0, 3, 1127);
+data.setCell(0, 3, 55776);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPresenceOfUIElements')
+data.setCell(1, 2, 'testCases.LoginFunctionality')
+data.setCell(1, 3, 34069);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testInvalidLoginShowErrorMsg')
+data.setCell(2, 2, 'testCases.LoginFunctionality')
+data.setCell(2, 3, 811);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPasswordMaskedbutton')
+data.setCell(3, 2, 'testCases.LoginFunctionality')
+data.setCell(3, 3, 449);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -213,18 +257,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.LoginFunctionality</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testPasswordMaskedbutton</span>
-                <br/>
-                <span class="ignored-method-name">testLoginButtonDisabledWhenFieldAreEmpty</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -239,12 +274,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">testLoginButtonDisabledWhenFieldAreEmpty</span>
+                <span class="method-start">35625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPasswordMaskedbutton</span>
+                <span class="method-start">91410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">testInvalidLoginShowErrorMsg</span>
-                <span class="method-start">11287 ms</span>
+                <span class="method-start">91862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPresenceOfUIElements</span>
+                <span class="method-start">92676 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12420 ms</span>
+                <span class="method-start">126748 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

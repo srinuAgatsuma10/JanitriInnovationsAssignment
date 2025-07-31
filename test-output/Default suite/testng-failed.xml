@@ -7,7 +7,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="testInvalidLoginShowErrorMsg"/>
+          <include name="testPasswordMaskedbutton"/>
           <include name="setUp"/>
+          <include name="testLoginButtonDisabledWhenFieldAreEmpty"/>
         </methods>
       </class> <!-- testCases.LoginFunctionality -->
     </classes>

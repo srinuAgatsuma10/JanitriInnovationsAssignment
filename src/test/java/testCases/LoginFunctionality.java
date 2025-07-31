@@ -49,4 +49,10 @@ public class LoginFunctionality extends BaseClass {
 		lp.clickLoginBtn();
 		System.out.println(lp.getErrorMessage());
 	}
+	
+	@Test(priority = 4)
+	public void testPresenceOfUIElements() {
+		LoginPage_POM lp = new LoginPage_POM(driver);
+		Assert.assertTrue(lp.isUIElementsPresent(), "All UI elements should be present");
+	}
 }
